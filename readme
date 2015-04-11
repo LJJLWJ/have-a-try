@@ -1,0 +1,4 @@
+git init初始化一个仓库
+git add <filename>添加一个文件
+git commit -m "改动说明" 将改动提交
+可以一次改动add多个文件在commit

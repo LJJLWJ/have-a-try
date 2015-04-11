@@ -8,3 +8,9 @@ git log查看提交历史
 git reflog查看命令历史
 git reset --hard commit_id
 HEAD 指向当前版本，HEAD^前一个版本HEAD~100前一百个版本
+git checkout --filename 删除当前工作区的修改
+git reset HEAD filename撤销暂存区的修改回到工作区
+git remote add origin ssh地址 关联一个远端仓库
+git push -u origin master第一次推送master分支的所有内容
+git push origin master 推送最新的修改
+git clone ssh地址从哦嘛远端库克隆

@@ -4,3 +4,7 @@ git commit -m "改动说明" 将改动提交
 可以一次改动add多个文件在commit
 git status 查看当前的仓库状态
 git diff <filename>查看不同
+git log查看提交历史
+git reflog查看命令历史
+git reset --hard commit_id
+HEAD 指向当前版本，HEAD^前一个版本HEAD~100前一百个版本
